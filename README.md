@@ -1,2 +1,2 @@
-# arsmentis-j
-repo for jekyll site until official one is made, just so I don't screw myself over
+# arsmentis-jekyll
+Phase 2 Ars Mentis website built with jekyll + bootstrap.
