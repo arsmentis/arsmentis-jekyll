@@ -1,0 +1,20 @@
+---
+layout: page
+title: Ars Mentis LLC
+description: Custom software solutions for clients of any size. All problems have solutions. Let me solve yours.
+comments: false
+sharing: false
+footer: true
+---
+
+<h1>All problems have solutions. Let me solve yours.</h1>
+
+Welcome to Ars Mentis. I create custom software solutions for clients of any size. From concept to completion, I’ll work with you to make your idea a reality.
+
+<h2>Why choose Ars Mentis?</h2>
+
+* I offer a variety of <a href="{{ root_url }}/services">services</a> to meet your technology needs.
+* I've worked with a broad range of satisfied <a href="{{ root_url }}/clients"clients</a>.
+* Ars Mentis is an established business. Learn more about <a href="{{ root_url }}/about">the company</a> and <a href="{{ root_url }}/about#james">me, James Kruth</a>.
+
+Want to learn more? Ready to get started? <a href="{{ root_url }}/contact">Contact me now!</a>

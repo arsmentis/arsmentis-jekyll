@@ -1,0 +1,12 @@
+# Site settings
+title: Ars Mentis LLC
+email: james@arsmentis.com
+description: "Custom software solutions for clients of any size. All problems have solutions. Let me solve yours."
+baseurl: "localhost:4000"
+url: "http://arsmentis.com"
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
+permalink: pretty
