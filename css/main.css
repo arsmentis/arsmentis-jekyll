@@ -24,9 +24,60 @@ a:visited { color: #205caa; }
 
 /* Header Styles */
 
+header > div.container {
+  width: 950px;
+  margin: 2em auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Jumbotron */
+
+.jumbo-container {
+ width: 846px;
+}
+
+/* Navigation */
+
+nav {
+  height: 40px;
+}
+
+nav ul {
+  height: 100%;
+  margin: 0 auto;
+  list-style-type: none;
+  font-variant: small-caps;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  position: relative;
+  z-index: 1;
+}
+
+nav a, nav a:hover, nav a:active, nav a:visited, nav a:focus {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
 /* Site footer */
 
 #footer-text {
   color: #ffffff;
   font-size: .9em;
+}
+
+/* Hidden-print */
+
+.hidden-print {
+  padding: 0;
 }
