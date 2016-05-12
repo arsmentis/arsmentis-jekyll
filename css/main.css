@@ -12,11 +12,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
+  color: #000;
   background-image: url('../img/line-tile.png');
   background-repeat: repeat;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400;}
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -34,7 +35,7 @@ header > div.container {
 /* Jumbotron */
 
 .jumbo-container {
- width: 846px;
+  width: 846px;
 }
 
 /* Navigation */
@@ -67,6 +68,18 @@ nav a, nav a:hover, nav a:active, nav a:visited, nav a:focus {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+}
+
+/* Site content */
+
+article .home-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+  margin-top: 0;
+  
 }
 
 /* Site footer */
