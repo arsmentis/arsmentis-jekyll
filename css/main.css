@@ -8,6 +8,8 @@
 html, body { height: 100%; }
 
 body {
+  max-width: 950px;
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -26,16 +28,10 @@ a:visited { color: #205caa; }
 /* Header Styles */
 
 header > div.container {
-  width: 950px;
+  width: 98.5%;
   margin: 2em auto;
   padding-left: 0;
   padding-right: 0;
-}
-
-/* Jumbotron */
-
-.jumbo-container {
-  width: 846px;
 }
 
 /* Navigation */
@@ -47,6 +43,7 @@ nav {
 nav ul {
   height: 100%;
   margin: 0 auto;
+  padding-top: 1em;
   list-style-type: none;
   font-variant: small-caps;
 
@@ -93,4 +90,13 @@ article .home-title {
 
 .hidden-print {
   padding: 0;
+}
+
+@media (min-width: @screen-sm-max) {
+  /* Jumbotron */
+
+  .jumbo-768-style {
+    width: 96.5%;
+    margin: 0 auto;
+  }
 }
