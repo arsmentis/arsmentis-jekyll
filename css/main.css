@@ -42,8 +42,8 @@ nav {
 
 nav ul {
   height: 100%;
-  margin: 0 auto;
-  padding-top: 1em;
+  margin-left: 4em;
+  padding-top: 1.3em;
   list-style-type: none;
   font-variant: small-caps;
 
@@ -69,8 +69,8 @@ nav a, nav a:hover, nav a:active, nav a:visited, nav a:focus {
 
 /* Jumbotron */
 
-.jumbo-768-style {
-  width: 95.5%;
+.jumbo-style {
+  width: 90%;
   margin: 0 auto;
   border-radius: 0.4em 0.4em 0.4em 0.4em;
   -moz-border-radius: 0.4em 0.4em 0.4em 0.4em;
@@ -102,17 +102,43 @@ article .home-title {
   padding: 0;
 }
 
+@media (max-width: 992px) {
+  /* Navigation */
+  nav ul {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 768px) {
   /* Header */
   header img {
     max-width: 99%;
   }
+
+  /* Navigation */
+  nav ul {
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 1em;
+  }
   
   /* Jumbotron */
-  .jumbo-768-style {
+  .jumbo-style {
     width: 100%;
     border-radius: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navigation */
+  nav ul {
+    max-width: 90%;
+  }
+
+  nav a, nav a:hover, nav a:active, nav a:visited, nav a:focus {
+    font-size: .99em;
   }
 }
