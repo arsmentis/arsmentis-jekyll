@@ -67,6 +67,16 @@ nav a, nav a:hover, nav a:active, nav a:visited, nav a:focus {
   font-size: 20px;
 }
 
+/* Jumbotron */
+
+.jumbo-768-style {
+  width: 95.5%;
+  margin: 0 auto;
+  border-radius: 0.4em 0.4em 0.4em 0.4em;
+  -moz-border-radius: 0.4em 0.4em 0.4em 0.4em;
+  -webkit-border-radius: 0.4em 0.4em 0.4em 0.4em;
+}
+
 /* Site content */
 
 article .home-title {
@@ -92,11 +102,17 @@ article .home-title {
   padding: 0;
 }
 
-@media (min-width: @screen-sm-max) {
+@media (max-width: 768px) {
+  /* Header */
+  header img {
+    max-width: 99%;
+  }
+  
   /* Jumbotron */
-
   .jumbo-768-style {
-    width: 96.5%;
-    margin: 0 auto;
+    width: 100%;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
   }
 }
