@@ -8,22 +8,19 @@ sharing: false
 footer: true
 ---
 
-Custom Software
----------------
+<h2 class="section-header">Custom Software</h2>
 
 * Consulting - We'll work together to turn your idea into a viable solution
 * Development - Once we've found a solution, I can make it a reality
 * Analysis - I can propose enhancements and solutions to problems through careful analysis of your existing applications and infrastructure
 * Support - I stand by my software; if a bug is my fault, I’ll fix it for free
 
-IT Solutions
-------------
+<h2 class="section-header">IT Solutions</h2>
 
 * Consulting - I can configure servers and set up office networks
 * Hosting - I'll securely host your application or content
 
-Capabilities
-------------
+<h2 class="section-header">Capabilities</h2>
 
 * Mock-ups & design specifications
 * Web & mobile app development using modern frameworks like [AngularJS](https://angularjs.org/), [ExpressJS](http://expressjs.com/), [Flask](http://flask.pocoo.org/), and [Bootstrap](http://getbootstrap.com/)

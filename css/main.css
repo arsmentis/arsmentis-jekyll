@@ -1,6 +1,3 @@
----
----
-
 /* Base */
 
 * {
@@ -93,12 +90,31 @@ h1.home-title {
 
 h1.page-title {
   font-size: 2em;
-  line-height: 1.5em;
-  margin: .25em 0 0 0;
+  line-height: 1.2em;
+  padding-bottom: .5em;
+  margin: .25em 0 1em 0;
+  background-image: url('../img/dotted-border.png');
+  background-repeat: repeat-x;
+  background-position: bottom left;
+}
+
+h2.section-header {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+h2.contact-header {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 
 ul li {
   margin-left: 2em;
+}
+
+.jumbotron p {
+  font-size: 1em;
 }
 
 /* Site footer */

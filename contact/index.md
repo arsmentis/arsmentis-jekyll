@@ -8,9 +8,7 @@ sharing: false
 footer: true
 ---
 
-Need help with a technology issue? Got an idea that needs hashing out? No problem! Contact me to get started.
-
-__James Kruth &#124; james@arsmentis.com__
+<h2 class="contact-header">James Kruth &#124; <a href="mailto:james@arsmentis.com">james@arsmentis.com</a></h2>
 
 Phone: 517.325.3759<br>
 Fax: 815.301.8063
