@@ -1,3 +1,6 @@
+---
+---
+
 /* Base */
 
 * {
@@ -21,9 +24,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400;}
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a         { color: #1e6b63; text-decoration: none; }
+a:hover   { color: #1e6b63; text-decoration: none; opacity: 0.75; }
 
 /* Header Styles */
 
@@ -71,29 +73,40 @@ nav a, nav a:hover, nav a:active, nav a:visited, nav a:focus {
 
 .jumbo-style {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 2em;
   border-radius: 0.4em 0.4em 0.4em 0.4em;
   -moz-border-radius: 0.4em 0.4em 0.4em 0.4em;
   -webkit-border-radius: 0.4em 0.4em 0.4em 0.4em;
+  padding: 2em 3em 3em 3em;
 }
 
 /* Site content */
 
-article .home-title {
+h1.home-title {
   font-size: 1.8em;
   font-weight: bold;
   text-align: center;
   line-height: 1.2em;
   margin-bottom: 1em;
   margin-top: 0;
-  
+}
+
+h1.page-title {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: .25em 0 0 0;
+}
+
+ul li {
+  margin-left: 2em;
 }
 
 /* Site footer */
 
-#footer-text {
+.footer-text {
   color: #ffffff;
   font-size: .9em;
+  margin-bottom: 2em;
 }
 
 /* Hidden-print */
