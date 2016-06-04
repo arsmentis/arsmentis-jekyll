@@ -14,7 +14,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  color: #000;
+  color: #222;
   background-image: url('../img/line-tile.png');
   background-repeat: repeat;
 }
@@ -109,8 +109,33 @@ h2.contact-header {
   margin-bottom: 1em;
 }
 
+h2.client-header {
+  font-size: 1.3em;
+  color: #1e6b63;
+  margin-top: .8em;
+}
+
 ul li {
   margin-left: 2em;
+}
+
+article img {
+  border-radius: .3em;
+  -moz-border-radius: .3em;
+  -webkit-border-radius: .3em;
+  box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  box-sizing: border-box;
+  border: #fff 0.5em solid;
+}
+
+.clientImg {
+  width: 200px;
+  height: 200px;
+  float: left;
+  clear: both;
+  margin: 1em 0;
 }
 
 .jumbotron p {

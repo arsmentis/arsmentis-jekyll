@@ -11,7 +11,7 @@ footer: true
 <h2 class="contact-header">James Kruth &#124; <a href="mailto:james@arsmentis.com">james@arsmentis.com</a></h2>
 
 Phone: 517.325.3759<br>
-Fax: 815.301.8063
+Fax: 815.301.8063<br>
 
 Ars Mentis LLC<br>
 5208 W Saginaw HWY #80421<br>
