@@ -98,8 +98,13 @@ h1.page-title {
   background-position: bottom left;
 }
 
+h2.home-header {
+  font-size: 1.3em;
+  text-align: center;
+}
+
 h2.section-header {
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin-bottom: 1em;
 }
 
@@ -180,6 +185,7 @@ article img {
   /* Jumbotron */
   .jumbo-style {
     width: 100%;
+    padding: 3em 0.5em;
     border-radius: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
