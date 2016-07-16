@@ -33,5 +33,6 @@ footer: true
 * Automated data transformation & conversion
 * [Python](https://www.python.org/), [JavaScript](http://www.ecmascript.org/)/[NodeJS](https://nodejs.org/), [PHP](https://php.net/), [HTML](http://www.w3.org/html/logo/), [CSS](http://www.w3.org/Style/CSS/Overview.en.html) and many other languages
 * [MySQL](https://www.mysql.com/), [PostgreSQL](http://www.postgresql.org/), [MongoDB](https://www.mongodb.org/), and many other databases
+* [WordPress](https://wordpress.org/), [Drupal](https://www.drupal.org/) and other Content Management Systems
 * Server configuration (primarily GNU/Linux) and management
 * Network infrastructure configuration
