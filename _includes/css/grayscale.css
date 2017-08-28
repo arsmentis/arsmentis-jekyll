@@ -36,6 +36,11 @@ p {
     line-height: 1.5;
 }
 
+.logo {
+  max-width: 80%;
+  margin: 1.5em auto;
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
