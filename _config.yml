@@ -1,8 +1,10 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Ars Mentis
+subtitle: Custom Software and IT Consulting
+author: Ars Mentis, LLC
+email: james@arsmentis.com
+url: 
+description: "Custom software solutions for clients of any size. All problems have solutions. Let me solve yours."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
